@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>invoice print</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+    table{
+        border: 1px solid black;
+        height:auto;
+        width: auto;
+        text-align: center;
+    }
+    th{
+        border:1px solid black;
+         
+    }
+    tr{
+        border:1px solid black;
+         
+    }
+    button{
+        padding: 0.5% 4%;
+        font-size: 15px;
+        border: none;
+        background: red;
+        color: aliceblue;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>items</th>
+            <th>product id</th>
+            <th>Quantity</th>
+            <th>subtotal</th>
+
+        </tr>
+        <tr>
+        <td>worspress template</td>
+        <td>1241</td>
+        <td>5</td>
+        <td>5000</td>
+    </tr>
+    <tr>
+        <td>maxwell admin template</td>
+        <td>1520</td>
+        <td>4</td>
+        <td>5410</td>
+    </tr>  <tr>
+        <td>unify template</td>
+        <td>1205</td>
+        <td>6</td>
+        <td>3000</td>
+    </tr>
+    <tr >
+        <td colspan="4" style="border: 1px solid blue; text-align: right;">total= 3600</td>
+
+    </tr>
+    </table>
+    <button id="btn" onclick="billprint()">print</button>
+</body>
+<script>
+function billprint(){
+    document.getElementById("btn").style="display:none;";
+
+    window.print();
+}
+</script>
+</html>
