@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window envent-unload event</title>
+</head>
+<!-- inunload function para() not load-->
+<body onunload="para()">
+    <p id="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, vel odio. Est provident perspiciatis illum amet? Provident voluptatibus doloremque modi nostrum optio saepe, nisi pariatur, esse explicabo rem error distinctio!</p>
+</body>
+<script>
+    function para(){
+        document.getElementById("pp").style="color: pink; background-color: green; transition: 2s linear; height: auto; width: 50%; padding: 3%;"
+
+
+    }
+</script>
+</html>

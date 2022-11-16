@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>window event - onload</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body onload="test()">
+    <p id="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, totam saepe perferendis, ea eius reprehenderit aliquid at ratione, blanditiis sint facilis? Nulla et accusamus eligendi ad placeat atque repellat excepturi.
+    </p>
+</body>
+<script>
+    function test(){
+        document.getElementById("para").style="color: white; background-color: black; transition: 2s; height: 120px; width: 50%; margin-left: 25%; font-size: 22px; padding: 5%; line-height: 38px; "
+
+        alert("for further process click 'ok'");
+    }
+</script>
+</html>
