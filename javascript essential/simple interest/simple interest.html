@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple interest</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        input{
+            margin-top: 50px;
+            width: 50%;
+            height: 30px;
+        }
+        button{
+            margin-top: 50px;
+        }
+        p{
+    
+            color: red;
+        }
+    </style>
+</head>
+<body>
+   <input type="text" placeholder="enter amount" id="amount"><br>
+   <input type="text" placeholder="time duration" id="time"><br>
+   <input type="text" placeholder="interest" id="rate"><br>
+   <button onclick="si()">click</button>
+   <p id="result"></p>
+
+</body>
+<script>
+    function si(){
+        var a=document.getElementById("amount").value;
+        var t=document.getElementById("time").value;
+        var r=document.getElementById("rate").value;
+        var total=a*t*r/100;
+        document.getElementById("result").innerHTML= "simple interest is: " +  total;
+    }
+</script>
+</html>
