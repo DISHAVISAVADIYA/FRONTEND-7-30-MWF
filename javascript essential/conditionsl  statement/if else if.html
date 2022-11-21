@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>if else if</title>
+</head>
+<body>
+<p id="para"></p>
+<button onclick="test()">click</button>
+</body>
+<script type="text/javascript">
+	function test() {
+		let a=parseInt(prompt("enter a number"));
+		let b=parseInt(prompt("enter b number"));
+		if(a>b){
+			document.getElementById("para").innerHTML="a is big";
+		}
+		else if(b>a){
+			document.getElementById("para").innerHTML="b is big";
+
+		}
+		else if(a==b){
+			document.getElementById("para").innerHTML="both are equal in number";
+
+		}
+	
+		else{
+			document.getElementById("para").innerHTML="check a given number";
+
+		}	
+		}
+	
+</script>
+</html>

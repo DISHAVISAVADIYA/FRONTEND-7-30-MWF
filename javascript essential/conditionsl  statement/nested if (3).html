@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>nested if</title>
+</head>
+<body>
+ <p id="chk"></p>
+    <button onclick="test()">click</button>
+
+</body>
+<script type="text/javascript">
+	function test(){
+		let n1=parseInt(prompt("enter a number"));
+		let n2=parseInt(prompt("enter b number"));
+		
+		if(n1>n2){
+			if(n1 !=0 && n2 !=0){
+			document.getElementById("chk").innerHTML="n1 is grater than n1 and both are positive in number";
+
+			}
+		else{
+			document.getElementById("chk").innerHTML="n1 is less than n2";
+
+		}
+		}
+	}
+
+</script>
+</html>
