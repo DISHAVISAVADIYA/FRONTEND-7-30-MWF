@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odd and even number</title>
+</head>
+<body>
+    <input type=" text" id="n1">
+    <p id="test"></p>
+    <button onclick="find()">click</button>
+</body>
+<script>
+    function find(){
+    let a=document.getElementById("n1").value;
+    if(a%2==0){
+        document.getElementById("test").innerHTML="this is even number";
+    }
+    else{
+        document.getElementById("test").innerHTML="this is odd number";
+        
+    }
+}
+</script>
+</html>
