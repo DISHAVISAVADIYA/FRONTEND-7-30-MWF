@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+</head>
+<body>
+    <center>
+        <div class="frm">
+        <form method="post"  name="frm" action="wel.html" onsubmit="return valid(this.value)">
+            <label>name</label>
+            <input type="text" name="nm">
+            <br>
+            <label>email</label>
+            <input type="text" name="mail">
+            <br><br>
+            <button type="submit">register</button>
+        </form>
+    </div>
+    </center>
+    
+</body>
+<script>
+    function valid(){
+        if(document.frm.nm.value==""){
+            alert("enter name");
+            document.frm.nm.focus();
+            return false;
+        }
+        var a= /^[a-zA-Z]*$/ 
+        if(!a.test(document.frm.nm.value)){
+            alert("enter only alphabetes");
+            document.frm.nm.focus();
+            return false;
+        }
+        if(document.frm.mail.value==""){
+            alert("enter email address");
+            document.frm.mail.focus();
+            return false;
+
+        }
+        var e=/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!e.test(document.frm.mail.value)){
+            alert("check your mail address")
+            document.frm.nm.focus();
+            return false;
+        }
+    
+
+    
+    }
+</script>
+</html>
