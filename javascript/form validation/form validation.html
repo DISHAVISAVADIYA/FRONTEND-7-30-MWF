@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form validation</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		form{
+			height: 250px;
+			width: 400px;
+			background: pink;
+			padding-top: 80px;
+			
+		}
+		label{
+		}
+	</style>
+</head>
+<body>
+	<center>
+<form name="frm" action="welcome.html" onsubmit="return valid(this.value)">
+	<label>NAME</label>
+
+	<input type="text" name="nm">
+	<Br><br>
+	<input type="submit" name="sub">
+
+</form>
+</Br>
+</body>
+<script type="text/javascript">
+	function valid(){
+	if(document.frm.nm.value==""){
+		document.frm.nm.style="background: red";
+		return false;
+	}
+	var a=/^[A-Za-z]+$/;
+	if(!a.test(document.frm.nm.value)){
+	
+		document.frm.nm.style="color: red";
+		document.frm.nm.focus();
+		alert("enter valid name");
+		return false;
+	}
+}
+// var n=/^[A-Za-z]+$/;
+//     if(!n.test(document.frm.nm.value))
+//     {
+//         alert('Please Enter Your Name only in Alphabetic character')
+//         document.frm.nm.focus();
+//         return false;
+//     }
+
+</script>
+</html>
