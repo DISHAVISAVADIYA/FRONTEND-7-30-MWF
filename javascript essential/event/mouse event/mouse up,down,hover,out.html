@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse event</title>
+</head>
+<body>
+    <p id="p1" onmouseenter="mh()">hi</p>
+    <hr>
+    <img src="r1.jpg" id="pic" onmouseout="mo()">
+    <p id="p2" onmouseup="mu()">welcome to the website</p>
+    <p id="p3" onmousedown="md()">welcome</p>
+<!-- mouseup e -->
+</body>
+<script>
+    function mh(){
+        document.getElementById("p1").innerHTML="this is mouse hover event"
+    }
+    function mo(){
+        document.getElementById("pic").src='p2.jpg';
+    }
+    function mu(){
+        document.getElementById("p2").style.color="red";
+    }
+    function md(){
+        document.getElementById("p3").style.fontSize="50px";
+
+    }
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click event</title>
+    <style>
+        button{
+            background: red;
+            border: none;
+            font-size: 20px;
+            padding: 10px 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>mouse event</h1>
+    <p id="para">hi</p>
+    <button onclick="text()">click</button>
+    <hr>
+    <button ondblclick="test()" >double click</button>
+    <hr>
+    <button oncontextmenu="right()">right click</button>
+
+</body>
+<script>
+    function text(){
+        document.getElementById("para").innerHTML="onclick event";
+
+    }
+    function test(){
+        document.write("this is double click event");
+    }
+    function right(){
+        alert("welcome to the website");
+    }
+
+</script>
+</html>
