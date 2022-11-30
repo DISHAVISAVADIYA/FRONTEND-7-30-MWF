@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+<body>
+    
+</body>
+<script>
+    document.write("<h2>print 1 to 10 using for loop:</h2> <br>", );
+    var i;
+    for(i=0;i<=10;i++){
+        document.write(i,"<br>");
+    }
+    document.write("<hr>");
+    document.write("<h2>print fizz 3 times using for loop:</h2> <br>" );
+
+    var a;
+    for(a=1;a<=3;a++){
+        document.write("fizz", "<br>");
+    }
+    document.write("<hr>");
+    document.write("<h2>print the numbers 12 to 24:</h2> <br>" );
+
+    let b;
+    for(b=12;b<=24;b++){
+        document.write("value of b is:", b , "<br>")
+    }
+    document.write("<hr>");
+    document.write("<h2>print odd number from 7 to 31:</h2> <br>" );
+    var c;
+    for(c=7;c<=31;c++){
+        if(c%2==!0){
+        document.write("odd number:", c, "<br>")
+        }
+    }
+    document.write("<hr>");
+    document.write("<h2>print even number from 10 to 20:</h2> <br>" );
+    var d;
+    for(d=10;d<=20;d++){
+        if(d%2==0){
+        document.write("print even number-"," ", d , "<br>");
+        }
+    }
+    document.write("<hr>");
+    document.write("<h2>Iterate through all numbers from 1 to 45. Print the following:</h2> <br>" );
+    var x;
+    for(x=1;x<=45;x++){
+        if(x% 3== 0 && x%5==0){
+        document.write(x, "<br>");
+
+    }
+    else if(x%3==0){
+        document.write(x, "<br>");
+
+    }
+    else if(x%5==0){
+        document.write(x, "<br>");
+
+    }
+
+}
+document.write("<hr>");
+
+document.write("<h2>print the array element:</h2> <br>" );
+    var y;
+    ar=["divya","rahul","nidhi","kamal","samir"]
+    var i;
+    for(i=0;i<ar.length;i++){
+        document.write(ar[i],"<br>");
+    }
+    
+
+
+
+
+
+
+    
+
+</script>
+</html>
