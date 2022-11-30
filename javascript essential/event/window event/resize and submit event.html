@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resize event</title>
+    <style>
+        body{
+            line-height: 40px;
+        }
+        form{
+
+            width: 30%;
+        }
+      
+        input{
+            width: 80%;
+            height: 20px;
+            border: 1px inset black;
+            
+        }
+    </style>
+</head>
+<body onresize="re()">
+    <center>
+    <form onsubmit="sub()">
+        <fieldset>
+            <legend>form</legend>
+        <input type="text" placeholder="name">
+        <br>
+        <input type="email" placeholder="email"><br>
+        <input type="password" name="" placeholder="password">
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+</center>
+</body>
+<script>
+    function re(){
+        confirm("you want resize the window");
+    }
+    function sub(){
+        alert(" record submitted")
+    }
+
+</script>
+</html>
