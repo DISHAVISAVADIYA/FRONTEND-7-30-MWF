@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>averge of sum</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			margin-top: 5%;
+
+	}
+	</style>
+</head>
+<body>
+<label >enter a 1st value:</label>
+<input type="number" name="number" min="0" value="number"  required id="n1">
+<br><br>
+<label >enter a 2nd value:</label>
+<input type="number" name="number" min="0" value="number" required id="n2">
+<br><br>
+<label >enter a 3rd value:</label>
+<input type="number" name="number" min="0" value="number" required id="n3">
+<br><br>
+<label >averge of value:</label>
+<input type="number" name="total" readonly id="total">
+<br><br>
+<button id="btn" onclick=" avg()">click here</button>
+</body>
+<script type="text/javascript">
+	function avg(){
+		
+		var a=parseInt(document.getElementById("n1").value);
+		var b=parseInt(document.getElementById("n2").value);
+		var c=parseInt(document.getElementById("n3").value);
+		 
+		var sum=a+b+c;
+		var averge=sum/3;
+		document.getElementById("total").value=averge;
+
+	
+	}
+</script>
+</html>
