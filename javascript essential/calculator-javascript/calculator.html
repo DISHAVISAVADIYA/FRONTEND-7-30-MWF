@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="main">
+  <div class="cal">
+    <input type="text" placeholder="0" id="result" onclick="result()">
+  </div>
+    <div class="calculator">
+        <table>
+            <tr colspan="2">
+               <button type="button" id="btn" value="10" onclick="return per(this.value )">%</button>
+              <button type="button" id="btn" value="CE" onclick="del()">CE</button></td>
+               <button type="button" id="btn" value="C" onclick="clr()">C</button>
+                 <button type="button" id="btn" value="+"  onclick="display(this.value)">+</button>   
+                    
+                    
+
+                    
+            </tr>
+            <tr>
+                <button type="button" id="btn" value="1/x" onclick="divide()">1/x</button>
+                <button type="button" id="btn" value="x²" onclick="square()">x<sup style="font-size: 15px;">2</sup></button>
+                <button type="button" id="btn" value="2√x" onclick="sqr()">2√x</button>
+                <button type="button" id="btn" value="/" onclick="display(this.value)">/</button>
+
+            </tr>
+            <tr>
+                <button type="button" id="btn" value="7" onclick="display(this.value)"> 7</button>
+                <button type="button" id="btn" value="8" onclick="display(this.value)">8</button>
+                <button type="button" id="btn" value="9" onclick="display(this.value)">9</button>
+                <button type="button" id="btn" value="*" onclick="display(this.value)">*</button>
+
+            </tr>
+            <tr>
+                <button type="button" id="btn" value="4" onclick="display(this.value)">4</button>
+                <button type="button" id="btn" value="5" onclick="display(this.value)">5</button>
+                <button type="button" id="btn" value="6" onclick="display(this.value)">6</button>
+                <button type="button" id="btn" value="-" onclick="display(this.value)">-</button>
+
+            </tr>
+            <tr>
+                <button type="button" id="btn" value="1" onclick="display(this.value)">1</button>
+                <button type="button" id="btn" value="2" onclick="display(this.value)">2</button>
+                <button type="button" id="btn" value="3" onclick="display(this.value)">3</button>
+            
+
+            </tr>
+            <tr>
+                <button type="button" id="btn" value="+/-" onclick="pm()">+/-</button>
+                <button type="button" id="btn" value="0" onclick="display(this.value)">0</button>
+                <button type="button" id="btn" value="." onclick="display(this.value)">.</button>
+                <button type="button" id="btn" value="=" onclick="final()" style="width:47%">=</button>
+
+            </tr>
+            
+
+        </table>
+    </div>
+</div>
+</body>
+
+</html>
