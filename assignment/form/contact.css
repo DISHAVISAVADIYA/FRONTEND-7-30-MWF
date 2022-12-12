@@ -1,0 +1,176 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	/*font-family: 'Overpass', sans-serif;*/
+}
+nav{
+	height: 120px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	color: white;
+	background: #343434;
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+}
+nav .name{
+	height: inherit;
+	width: 20%;
+	/*border: 1px solid white;*/
+	margin-left: 5%;
+	padding: 36px 10px 10px 20px;
+	text-align: center;
+	line-height: 30px;
+	/*font-family: 'Crimson Text', serif;*/
+
+
+}
+nav .name h1{
+	color: #89cff0;
+	font-size: 49px;
+
+	/*font-weight: lighter;*/
+
+}
+nav .name .h1{
+	color: lightgray;
+}
+nav .name h3{
+	font-weight: lighter;
+	color: ghostwhite;
+}
+nav .menu{
+	/*border: 1px solid red;*/
+	height: inherit;
+	width: 80%;
+}
+nav .icon{
+	/*border: 1px solid black;*/
+	height: 20px;
+	width: 15%;
+	margin: 3% 0% 0% 75%;
+}
+nav .icon i{
+	/*border: 1px solid black;*/
+	margin-left: 20px;
+	color: lightgray;
+
+}
+nav .icon i:hover{
+	color: white;
+}
+nav .menu ul{
+	list-style: none;
+	/*border: 1px solid red;*/
+	width: 52%;
+	margin: 1.5% 0% 0% 40%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav .menu ul li{
+	display: inline;
+	padding: 5px 0px 0px 20px;
+}
+nav .menu ul li a:hover{
+	background: black;
+	text-shadow: 0px 0px 3px blue;
+	padding: 10px 5px 10px 5px;
+	font-weight: bold;
+}
+nav .menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+/*end nav*/
+.details{
+	height: 510px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	/*background: #343434;*/
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+
+
+
+}
+.contact{
+	height: 350px;
+	width: 40%;
+	/*border: 1px solid black;*/
+	margin: 6% 0% 0% 4%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 5%;
+	background: red
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	position: relative;
+	left: 3%;
+	
+
+	
+
+
+
+	
+}
+.details .contact .detail{
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding: 5px;
+	background:white;
+
+}
+.contact i{
+	color: #89cff0;
+	font-size: 50px;
+	margin-top: 5%;
+
+
+}
+.contact h1{
+	margin-top: 5%;
+	text-transform: capitalize;
+}
+.contact h4{
+	font-weight: lighter;
+
+
+}
+.contact h1 a{
+	color: black;
+}
+
+
+.form{
+	height: 450px;
+	width: 50%;
+	/*border: 1px solid black;*/
+	margin-right: 2%;
+	margin-top: 2%;
+	padding: 2% 2% 2% 6%;
+	background: #89cff0;
+	
+
+
+	
+
+
+	
+}
+.form legend{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.form input{
+	height: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	color: #00008B;
+
+}
