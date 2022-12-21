@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(225, 199, 180),pink);
+}
+.gal{
+    text-align: center;
+    font-size: 50px;
+    padding: 1%;
+    background-color: aliceblue;
+    letter-spacing: 10px;
+
+}
+.container{
+    height: auto;
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+img{
+    height: 250px;
+    width: 300px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 4%;
+}
