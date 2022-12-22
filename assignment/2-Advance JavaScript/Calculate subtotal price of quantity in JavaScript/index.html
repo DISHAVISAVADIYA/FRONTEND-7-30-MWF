@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>RD - SubTotal</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic,700''><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+  <div id="content">
+    <header class="header">
+      <h1><a href="https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36682/36682.png">RUSHI THAKAR</a></h1>
+      <h2>Your Basket</h2>
+      <p>Items you have added to your basket are shown below.
+        <br> Adjust the quantitites or remove items before continuing your purchase.</p>
+    </header>
+    <main role="main">
+      <form id="subtotal-form" name="subtotal-form" method="post" action="">
+        <table class="basket-tbl">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Qty</th>
+              <th>Cost</th>
+              <th>&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="product">
+                <label>Cotton T-Shirt, Medium</label>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="price" id="price" class="price" value="1.99">
+                </div>
+              </td>
+              <td>
+                <div class="qty">
+                  <input type="text" name="qty" id="qty" class="qty" value="1">
+                </div>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="cost" id="cost" class="cost" value="">
+                </div>
+              </td>
+              <td>
+                <i class="fa fa-trash-o"></i>
+              </td>
+            </tr>
+            <tr>
+              <td class="product">
+                <label>Baseball Cap, one Size</label>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="price" id="price" class="price" value="2.99">
+                </div>
+              </td>
+              <td>
+                <div class="qty">
+                  <input type="text" name="qty" id="qty" class="qty" value="2">
+                </div>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="cost" id="cost" class="cost" value="">
+                </div>
+              </td>
+              <td>
+                <i class="fa fa-trash-o"></i>
+              </td>
+            </tr>
+            <tr>
+              <td class="product">
+                <label>Swim Shorts, Medium</label>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="price" id="price" class="price" value="3.99">
+                </div>
+              </td>
+              <td>
+                <div class="qty">
+                  <input type="text" name="qty" class="qty" id="qty" value="1">
+                </div>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="cost" class="cost" id="cost" value="">
+                </div>
+              </td>
+              <td>
+                <i class="fa fa-trash-o"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="result-tbl">
+          <tbody>
+            <tr class="tbl-foot">
+              <td colspan="3">
+                <label>Subtotal</label>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="subtotal" class="subtotal" id="subtotal" value="">
+                </div>
+              </td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr class="tbl-foot">
+              <td colspan="3">
+                <label>VAT @ 20%</label>
+              </td>
+              <td class="currency">
+                <input type="text" name="vat" class="vat" id="vat" value="">
+              </td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr class="tbl-foot">
+              <td colspan="3">
+                <label>Total Cost</label>
+              </td>
+              <td>
+                <div class="currency">
+                  <input type="text" name="total" class="total" id="total" value="">
+                </div>
+              </td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr class="tbl-foot">
+              <td>&nbsp;</td>
+              <td colspan="4">
+                <button type="submit" id="buy-now" class="buy-now">Buy Now <i class="fa fa-angle-double-right"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="inner-footer">
+      &copy; <strong>2013 RUSHI.LTD</strong> Registered in INDIA: 360006
+    </div>
+  </footer>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

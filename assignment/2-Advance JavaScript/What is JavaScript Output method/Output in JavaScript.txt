@@ -1,0 +1,11 @@
+Output in JavaScript--
+
+We can get JavaScript Output in 4 simple and different ways on a webpage and these are given below. We can use them according to the application requirement. In this tutorial, we will be learning the following four different ways of getting output from JavaScript code, just like we use printf() in C language, cout in C++, etc.
+
+1.Using innerHTML property:-JavaScript lets you write into an HTML element by using innerHTML property. We can add anything we want, it can be a text message, some HTML element or anything else.
+
+2.Using document.write() method:-JavaScript lets you write any outout into the HTML webpage by using the document.write() method. By using this method you can directly write output to the HTML page.
+
+3.Using Alert Box:-There are certain websites that give you alert messages when you access them or when you perform some action you see the output message in alert boxes. You can also make your webpage to send alert messages to notify something to the user using JavaScript, to use this feature you need to use the window.alert() method.
+
+4.By logging on the Console:-JavaScript also lets you create console logs which can be seen in the browser's developers' tools(Console) for debugging purposes. The statement written inside a console log will be executed but would not be displayed in the browser instead it will be displayed inside the console of the browser.
