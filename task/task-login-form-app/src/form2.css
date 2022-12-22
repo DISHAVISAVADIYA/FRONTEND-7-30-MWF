@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main{
+    height: 100vh;
+    display: flex;
+    
+}
+.left{
+    height: inherit;
+    width: 70%;
+    /* border: 1px solid black; */
+    text-align: center;
+
+    
+}
+.left h1{
+    margin-top: 10%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    
+}
+.left h3{
+    font-weight: 100;
+    margin-top: 2%;
+    letter-spacing: 1px;
+
+    
+}
+.social{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+    cursor: pointer;
+    
+}
+.or{
+    margin-top: 3%;
+    font-size: 20px;
+    position: relative;
+}
+.or::after{
+content: '';
+position: absolute;
+background-color: gray;
+height: 5px;
+width: 20%;
+top: 10px;
+bottom: 0%;
+right: 28%;
+
+
+}
+.or::before{
+    content: '';
+    position: absolute;
+    background-color: gray;
+    height: 5px;
+    width: 20%;
+    top: 10px;
+    left: 28%;
+}    
+.social i{
+    height: 60px;
+    width: 18%;
+    /* border: 1px solid red */
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+i:nth-child(n){
+    background-color: red;
+}
+i:nth-child(2n){
+    background-color: blue;
+}
+i:nth-child(3n){
+    background-color: green
+}
+form{
+    height: 250px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+}
+input{
+    height: 40px; 
+    width: 60%; 
+    margin-top: 5%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(228, 237, 235);
+    cursor: pointer;
+    padding: 10px;
+
+}
+:focus{
+    outline: none;
+}
+::placeholder{
+    padding: 5px;
+}
+button{
+    height: 40px;
+    width: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+    font-size: 20px;
+    background: blue;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+button:hover{
+    background-color: white ;
+    color: black;
+    border: 1px solid blue;
+
+}
+.rightside{
+    height: inherit;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to left,rgb(103, 199, 240),rgb(99, 192, 122));
+    text-align: center;
+    
+}
+.rc{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 60%;
+    color: white;
+    padding: 0px 20px;
+}
+.rc h1{
+    letter-spacing: 5px;
+
+}
+.rc p{
+font-size: 20px;
+letter-spacing: 2px;
+line-height: 25px ;
+margin-top: 5%;
+}
+.rc button{
+    height: 40px;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 10%;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.rc button:hover{
+    background-color: blue ;
+    border: 2px solid white;
+    color: white;
+
+}

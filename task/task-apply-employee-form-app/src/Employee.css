@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right,rgb(5, 5, 180),skyblue 60%);
+    color: white;
+}
+.left{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid black;   */
+    text-align: center;
+
+
+}
+.left .logo{
+    height: 50px;
+    width: 15%;
+    margin-top: 32%; 
+    /* border: 1px solid black;   */
+    margin-left: 40.5%;
+
+}
+.left .logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+
+}
+.left h2{
+    font-size: 50px;
+    margin-top: 5%;
+
+}
+.left p{
+    margin: 0% 20%;
+    padding-top: 5%;
+}
+.button{
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 8px 50px;
+    margin-top: 25%;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+
+}
+/* right */
+
+.right{
+    height: 450px;
+    width: 71%;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    border-radius: 150px 0px 0px 150px;
+    background-color: white;
+    color: black;
+
+}
+.employee{
+    border: 1px solid blue;
+ width: 20%;
+ margin-left: 78%;
+ border-radius: 15px;
+ background-color: blue;
+ margin-top: 1%; 
+}
+.employee span{
+    /* margin-right: 2%; */
+    font-size: 12px;
+    padding: 0px 20px;
+    display: inline-block;  
+}
+.employee span:nth-child(n){
+    border-radius: 20px;
+    padding: 3px  20px;
+}
+.employee span:nth-child(2n){
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 0px 5px 50px;
+
+}
+.right h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 3%;
+}
+.right form{
+    height: 300px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.right form .one{
+    height: 300px;
+    width: 47%;
+    /* border: 1px solid black; */
+}
+.right form .second{
+    height: 300px;
+    width: 47%;
+    /* border: 1px solid black; */
+}
+.right form .input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5%;
+    
+}
+::placeholder{
+    padding: 10px;
+}
+.radio{
+    margin-top: 5%;
+}
+.btn{
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 8px 50px;
+    margin-top: 8%;
+    margin-left: 58%;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}

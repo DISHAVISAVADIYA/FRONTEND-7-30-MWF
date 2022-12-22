@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, white 60%,rgb(76, 211, 189) 40%);
+    
+}
+.main{
+    height: 500px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: -3px 3px 50px 0px rgba(0, 0, 0, 0.18);
+    
+ } 
+ .logo{
+    height: 200px;
+    width: 38%;
+    /* border: 2px solid red; */
+    margin-top: 12%;
+    text-align: center;
+
+}
+ .logo .image{
+    height: 150px;
+    width: 50%;
+    margin-left: 25%;
+    /* border: 2px solid yellow; */
+    
+ }
+ .logo .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+ } 
+ .logo .name {
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 3%;
+    letter-spacing: 2px;
+
+ }
+ .logo .des{
+font-size: 15px;
+margin-top: 5%;
+
+ }
+ form{ 
+    height: inherit;
+    width: 63%;
+    /* border: 2px solid black; */
+ }
+ form h4{
+    text-align: right;
+    padding: 2%;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+ }
+ h2{
+    text-align: center;
+    /* border: 1px solid black; */
+    display: block;
+    font-size: 25px;
+    margin-top: 8%;
+ }
+ label{
+    /* border: 2px solid green; */
+    font-size: 18px;
+    margin-left: 15%;
+    margin-top: 4%;
+    display: inline-block;
+ }
+ input{
+    margin-left: 15%;
+    width: 70%;
+    height: 40px;
+    margin-top: 3%;
+    border: 1px solid lightgray;
+    
+    
+ }
+ ::placeholder{
+    padding: 10px;
+    font-size: 15px;
+
+    
+ }
+ .forgot{
+    text-align: right;
+    margin-right: 15%;
+ }
+ .submit{
+    margin-top: 7%;
+    background: rgb(76, 211, 189);
+ }
+ 

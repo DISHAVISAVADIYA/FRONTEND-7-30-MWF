@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('https://images.pexels.com/photos/7319098/pexels-photo-7319098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+ background-size:  cover;
+ margin-bottom: 10%;
+}
+nav{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 60px;
+    width: 6%;
+}
+.logo img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 50%;
+    /* border: 1px solid black; */
+
+}
+.menu{
+    height: 60px;
+    width: 90%;
+    /* border: 1px solid black; */
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    width: 50%;
+    font-size: 20px;
+    float: right;
+    margin-top: 12px;
+    color: white;
+    font-weight: 800;    
+    cursor: pointer;
+}
+.content{
+    height: auto;
+    width: 50%;
+    /* border: 1px solid black; */
+    margin-top: 8%;
+    margin-left: 5%;
+    /* text-align: center; */
+
+}
+.content h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.content p{
+    margin-top: 2%;
+    width: 60%;
+
+}
+.content button:nth-child(n){
+    background-color: rgb(121, 151, 121);
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 4%;
+    border-radius: 20px;
+    border: 0ch;
+    color: white;
+    cursor: pointer;
+}
+.content button:nth-child(2n){
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+
+}
+.content button i{
+    margin-right: 10px;
+    display: inline-block;
+}
+.card{
+    height: 200px;
+    width: 80%;
+    /* border: 1px solid black; */
+    transform: translate(10%,50px);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card .c1{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    background:  rgb(121, 151, 121);
+    text-align: center;
+    box-shadow: 0px 0px 50px 0px gray;
+    cursor: pointer;
+
+}
+.card .c1 i{
+    font-size: 40px;
+    margin-top: 20%;
+    color: gray;
+}
+.card .c1 h3{
+    font-size: 25px;
+    margin-top: 10%;
+    color: white;
+}
