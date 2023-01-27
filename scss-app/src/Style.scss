@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$background : lightgrey;
+$color : black;
+$navcolor: rgb(94, 94, 214);
+
+$text-decoration : none;
+$fw: 700;
+$header-height : 90vh;
+$header-width: 100%;
+$div-position : absolute;
+$content-size : 100px;
+$transform : uppercase;
+
+nav{
+    background-color: $background !important;
+}
+h1{
+    color: $color;
+}
+.navbar-brand{
+    color: $color;
+    color: $navcolor;
+    // font-weight: $fw;
+    
+}
+.nav-Link{
+    color: $navcolor;
+    margin: 10px;
+    text-decoration: $text-decoration;
+}
+header{
+    height: $header-height;
+    width: $header-width;
+    // position: relative;
+    background-image: url('https://images.pexels.com/photos/7345387/pexels-photo-7345387.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+// header img{
+//     height: 100%;
+//     width: 100%;
+//     position: absolute;
+
+// }
+.content{
+    height: auto;
+
+}
+.row{
+    margin-top: 7%;
+
+}
+.container{
+    
+    padding: 10px 0px;
+    
+}
+h2{
+    font-size: $content-size;
+    text-transform: $transform;
+
+}
+.sld{
+    // border:1px solid red;
+    // display: flex;
+    // justify-content: space-between;
+    position: absolute;
+    margin-top: 15%;
+}
+.sld-img{
+    height: 250px;
+    // width: 30%;
+    padding: 0px 10px;
+}
+.sld-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
