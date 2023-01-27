@@ -1,0 +1,86 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+
+}
+html h1,h2,h3,h4,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand
+{
+    font-size: large !important;
+    font-weight: bolder !important;
+    letter-spacing: 2px !important;
+    font-size: 35px !important;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    z-index: 5 !important;
+    background-color: white !important;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 25px;
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+#call-customer
+{
+    margin-left: 2% !important;
+}
+.dropdown-menu
+{
+    min-width: 200px !important;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block !important;
+}
+#carouselExampleCaptions
+{
+width: 98%;
+height: 800px !important;
+margin-left: 1% !important;
+}
+#carouselExampleCaptions img 
+{
+    width: 100%;
+    height: 800px !important;
+}
+.card{
+  
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.navbar-link li 
+{
+    display: block !important;
+}
+#carouselExampleCaptions
+{
+width: 98%;
+height: 250px !important;
+margin-left: 1% !important;
+}
+#carouselExampleCaptions img 
+{
+    width: 100%;
+    height: 250px !important;
+}
+}
