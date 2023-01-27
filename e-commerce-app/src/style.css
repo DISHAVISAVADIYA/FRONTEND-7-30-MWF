@@ -1,0 +1,178 @@
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+:focus {
+    outline: none;
+}
+
+.social-icon {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    background-color: rgb(11, 136, 219);
+
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    transform: 0.3s;
+
+
+
+}
+
+.nav-link:hover {
+    background-color: aliceblue;
+    color: black !important;
+}
+
+.btn {
+    width: 15%;
+    font-size: 22px;
+}
+
+.contact-h1 {
+    color: green;
+    border-bottom: 1px solid black;
+}
+
+.contact-input {
+    height: 50px;
+}
+
+.footer {
+    background-color: rgb(11, 136, 219);
+    padding: 2% 0% 2% 0%;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border: none;
+    background-color: rgb(11, 136, 219) !important;
+    color: white;
+    padding: 2% 0% 2% 0% !important;
+
+
+}
+
+/* slider */
+#carouselExampleCaptions {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+
+
+
+.card-img-top {
+    height: 350px;
+    border-radius: 20px;
+} 
+.cards{
+    width: 25%;
+    padding: 10px;
+}
+.modal{
+    background-color: rgb(13, 61, 104) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width : 992px) {
+    .card-row {
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        width: 33% !important;
+
+
+    }
+}
+
+@media (max-width : 811px) {}
+
+@media (max-width : 768px) {
+    .first-line {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width : 576px) {
+    #carouselExampleCaptions {
+        height: 400px;
+    }
+
+    .carousel-item {
+        height: 400px;
+    }
+
+    .cards {
+        width: 49% !important;
+
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .card-btn {
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width : 320px) {
+
+    .card-row {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100% !important;
+
+
+    }
+}
